@@ -10,13 +10,13 @@ namespace List {
   }
 
   export namespace Response {
-    export interface Success {
+    export interface Success<T = any> {
       type: 'success';
-      values: { [id: string]: Brief | null };
+      values: { [id: string]: T };
     }
   }
 
-  export type Response = Response.Success | Error;
+  export type Response<T = any> = Response.Success<T> | Error;
 }
 
 export default List;
