@@ -7,7 +7,7 @@
   "license": "GPLv3",
   "private": false,
   "exports": {
-    ".": "./dist/"
+    "./*.js": "./dist/*.js"
   },
   "scripts": {
     "build": "tsc",
