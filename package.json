@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "yarn run build"
+    "install": "yarn run build"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
