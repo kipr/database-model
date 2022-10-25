@@ -1,0 +1,16 @@
+{
+  "name": "database-model",
+  "version": "1.0.0",
+  "description": "KIPR database schema",
+  "repository": "https://github.com/kipr/database-model",
+  "author": "KISS Institute for Practical Robotics",
+  "license": "GPLv3",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn run build"
+  },
+  "peerDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
