@@ -1,7 +1,7 @@
 import Selector from './Selector';
 import Error from './Error';
 
-namespace Create {
+namespace Get {
   export interface Request {
     selector: Selector;
   }
@@ -16,6 +16,6 @@ namespace Create {
   export type Response<T = any> = Response.Success<T> | Error;
 }
 
-export default Create;
+export default Get;
 
 
