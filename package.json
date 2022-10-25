@@ -6,9 +6,6 @@
   "author": "KISS Institute for Practical Robotics",
   "license": "GPLv3",
   "private": false,
-  "exports": {
-    "./*.js": "./dist/*.js"
-  },
   "scripts": {
     "build": "tsc",
     "install": "yarn run build"
