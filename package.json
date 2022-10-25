@@ -16,5 +16,11 @@
   "devDependencies": {
     "typescript": "^4.8.4"
   },
-  "exports": "./dist/"
+  "exports": {
+    ".": {
+      "import": "./dist/",
+      "require": "./dist/",
+      "types": "./dist/"
+    }
+  }
 }
