@@ -1,5 +1,5 @@
 {
-  "name": "database-model",
+  "name": "@kipr/database-model",
   "version": "1.0.0",
   "description": "KIPR database schema",
   "repository": "https://github.com/kipr/database-model",
